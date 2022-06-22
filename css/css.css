@@ -112,7 +112,7 @@ header label:hover {
 
 .main-index-section1 {
     grid-area: i-s1;
-    background-image: url(../img/Inicio/Codeando-pagina-web.jpg);
+    background-image: url(../img/inicio/codeando-pagina-web.jpg);
     clip-path: polygon(79% 0, 100% 0, 100% 51%, 100% 96%, 75% 98%, 26% 98%, 0 96%, 0 53%, 0 0, 28% 0);
     background-size: cover;       
     display: flex;
