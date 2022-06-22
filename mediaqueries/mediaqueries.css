@@ -1,0 +1,657 @@
+/*--------------------------------------------------------INDEX-----------------------------------------------------------*/
+/*--------------------------------------------------------INDEX-----------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {   
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 2em;
+        width: 3em;
+    }
+    /*-------------------------*/
+
+    /*---------------------------*/
+
+    /*section1*/
+    .main-index-section1 {
+        width: 100%;
+        padding-top: 2em;  
+        padding-bottom: 2em;        
+    }
+    .main__section1--titulo1 {
+        font-size: 4em;
+    }
+    .main__section1--titulo2 {
+        font-size: 1.5em;        
+    }
+    .main__section1--texto-intro {
+        font-size: 1.2em;
+        padding: 0 2em;
+    }
+    /*section2*/
+    .main-index-section2 {
+        width: 100%;        
+    }   
+    .main__section2--texto1 {
+        font-size: 1.5em;
+        margin: 1.5em 1em;
+    }
+    /*section3*/
+    .main-index-section3 {
+        width: 100%;
+    }
+    .main__section2__cards__card {
+        width: 80%;
+        height: auto;        
+    }
+    .main__section2__cards__card i {
+        font-size: 2.5em;
+    }
+    /*section4*/
+    .main-index-section4 {
+        width: 100%;        
+    }
+    .main__section3--texto1 {
+        font-size: 1.5em;
+        margin: 1.5em 1em;
+    }
+    /*section5*/
+    .main-index-section5 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main__section3--cards__card {
+        width: 80%;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    /*---------------------------*/
+    .footer__content--h2 {
+        font-size: 0.6em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 3em;
+        width: 4em;
+    } 
+    /*----------------------------------------*/
+
+    /*section1*/
+    .main-index-section1 {
+        width: 100%;
+        padding-top: 2em;  
+        padding-bottom: 2em;        
+    }
+    .main__section1--titulo1 {
+        font-size: 6em;
+    }
+    .main__section1--titulo2 {
+        font-size: 1.7em;        
+    }
+    .main__section1--texto-intro {
+        font-size: 1.3em;
+        padding: 0 2em;
+    }
+    /*section2*/
+    .main-index-section2 {
+        width: 100%;        
+    }   
+    .main__section2--texto1 {
+        font-size: 2em;
+        margin: 1.5em 1em;
+    }
+    /*section3*/
+    .main-index-section3 {
+        width: 100%;
+    }
+    .main__section2__cards__card {
+        width: 80%;
+        height: auto;        
+    }
+    .main__section2__cards__card i {
+        font-size: 3em;
+    }
+    .main__section2__cards__card--texto {
+        font-size: 1.3em;
+    }
+    /*section4*/
+    .main-index-section4 {
+        width: 100%;        
+    }
+    .main__section3--texto1 {
+        font-size: 2em;
+        margin: 1.5em 1em;
+    }
+    /*section5*/
+    .main-index-section5 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main__section3--cards__card {
+        width: 80%;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+    }
+    .main__section3--cards__card--texto {
+        font-size: 1.3em;
+    }
+    .main__section3--cards__card i {
+        font-size: 3em;
+    }
+
+    /*----------------------------------------*/
+    .footer__content--h2 {
+        font-size: 0.8em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.8em;
+    }
+}
+
+/*--------------------------------------------------------/INDEX-----------------------------------------------------------*/
+/*--------------------------------------------------------/INDEX-----------------------------------------------------------*/
+
+/*--------------------------------------------------------NOSOTROS-----------------------------------------------------------*/
+/*--------------------------------------------------------NOSOTROS-----------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 2em;
+        width: 3em;
+    }
+    /*-------------------------*/
+
+
+
+/*MAQUETADO-GRID*/
+    .grid-container-nosotros {
+        grid-template-areas:
+        "header"
+        "nosotros-text"
+        "abril"
+        "martin"
+        "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 80px 400px auto auto 80px;
+    }
+/*FIN-MAQUETADO-GRID*/
+
+    .main__textos-info__p1 {             
+        font-size: 1.5em;
+    }
+
+    .main__textos-info__p2 {    
+        font-size: 0.7em;
+    }
+
+    .main__textos-info__p3 {
+        font-size: 1.5em;
+    }
+
+    .main-container__cards-p {
+        font-size: 0.6em;
+        padding: 0 1em;
+    }
+
+    .main-container__cards__tarjeta-abri{
+        width: 90%;
+    }
+    .main-container__cards__tarjeta-martin{
+        width: 90%;
+    }
+
+    .footer__content--h2 {
+        font-size: 0.6em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+        
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 3em;
+        width: 4em;
+    }
+    /*-------------------------*/
+
+    .main__textos-info__p1 {             
+        font-size: 2.5em;
+    }
+
+    .main__textos-info__p2 {    
+        font-size: 0.8em;
+    }
+
+    .main__textos-info__p3 {
+        font-size: 2.5em;
+    }
+
+    .main-container__cards__tarjeta-abri{
+        width: 90%;
+    }
+    .main-container__cards__tarjeta-martin{
+        width: 90%;
+    }
+    .main-container__cards-p {
+        font-size: 0.7em;
+        padding: 0 1em;
+    }
+
+    .footer__content--h2 {
+        font-size: 0.8em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.8em;
+    }
+}
+/*--------------------------------------------------------/NOSOTROS-----------------------------------------------------------*/
+/*--------------------------------------------------------/NOSOTROS-----------------------------------------------------------*/
+
+/*--------------------------------------------------------SERVICIOS-----------------------------------------------------------*/
+/*--------------------------------------------------------SERVICIOS-----------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 2em;
+        width: 3em;
+    }
+    /*-------------------------*/
+/*MAQUETADO-GRID*/
+    .grid-container-servicios {
+        width: 100%;
+        grid-template-areas:
+        "header"
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 80px 1fr 1fr 1fr 1fr 80px;
+    }
+/*FIN-MAQUETADO-GRID*/
+
+    .main-container-card1, .main-container-card2, .main-container-card3, .main-container-card4 {
+        flex-direction: column;     
+    }
+
+    .main-container-card__s1 input {
+        font-size: 0.6em;
+    }
+
+    .main-container-card__s1 img {    
+        height: 10em;
+        padding: 0.5em;
+    }
+    .main-container-card1 p{
+        font-size: 0.6em;
+        margin: 1em;
+    }
+    .main-container-card2 p{
+        font-size: 0.6em;
+        margin: 1em;
+    }
+    .main-container-card3 p{
+        font-size: 0.6em;
+        margin: 1em;
+    }
+    .main-container-card4 p{
+        font-size: 0.6em;
+        margin: 1em;
+    }   
+ 
+    .footer__content--h2 {
+        font-size: 0.6em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.6em;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 890px) {
+    
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 3em;
+        width: 4em;
+    }
+    /*-------------------------*/
+
+    /*MAQUETADO-GRID*/
+    .grid-container-servicios {
+        width: 100%;
+        grid-template-areas:
+        "header"
+        "c1"
+        "c2"
+        "c3"
+        "c4"
+        "footer";
+        grid-template-columns: auto;
+        grid-template-rows: 80px 1fr 1fr 1fr 1fr 80px;
+    }
+    /*MAQUETADO-GRID*/
+
+    .main-container-card1 p{
+        font-size: 0.8em;
+        margin: 1em;
+    }
+    .main-container-card2 p{
+        font-size: 0.8em;
+        margin: 1em;
+    }
+    .main-container-card3 p{
+        font-size: 0.8em;
+        margin: 1em;
+    }
+    .main-container-card4 p{
+        font-size: 0.8em;
+        margin: 1em;
+    }   
+
+
+    .footer__content--h2 {
+        font-size: 0.8em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.8em;
+    }
+}
+/*--------------------------------------------------------/SERVICIOS-----------------------------------------------------------*/
+/*--------------------------------------------------------/SERVICIOS-----------------------------------------------------------*/
+
+/*--------------------------------------------------------NOVEDADES-----------------------------------------------------------*/
+/*--------------------------------------------------------NOVEDADES-----------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 2em;
+        width: 3em;
+    }
+    /*-------------------------*/
+
+    .grid-container-novedades {
+        gap: 4em;
+        width: 100%;        
+    }
+    .main-container-n1 {
+        width: 100vw;
+        height: 100%;
+        flex-direction: column;    
+        padding: 0;         
+    }
+    .main-container-n1 h2 {
+        margin: 0;                      
+    }
+    .main-container-n1 img {
+        width: 12em;
+        padding: 0.5em;
+    }
+    .main-container-n1 p {
+        padding: 2em 1em;
+        font-size: 1em;
+        
+    }
+    .main-container-n2 {
+        width: 100vw;
+        height: 100%;
+        flex-direction: column;    
+        padding: 0;                          
+    }
+    .main-container-n2 h2 {
+        margin: 0;        
+    }
+
+    .main-container-n2 img {
+        width: 12em;
+        padding: 0.5em;
+    }
+    .main-container-n2 p {
+        padding: 2em 1em;
+        font-size: 1em;
+    }    
+    .footer__content--h2 {
+        font-size: 0.6em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.6em;
+    }
+}
+    @media screen and (min-width: 481px) and (max-width: 890px) {
+        .container-enlaces {
+            display: none;
+        }
+        header label {
+            display: block;
+            font-size: 1.9em;
+        }
+        .header__nav-bar--foto-logo {
+            height: 3em;
+            width: 4em;
+        }
+   
+        /*-----------------------------------------------*/
+
+        .grid-container-novedades {
+            gap: 4em;
+            width: 100%;        
+        }
+        .main-container-n1 {
+            width: 100vw;
+            height: 100%;
+            flex-direction: column;    
+            padding: 0;         
+        }
+        .main-container-n1 h2 {
+            margin: 0;                      
+        }
+        .main-container-n1 img {
+            width: 15em;
+            padding: 0.5em;
+        }
+        .main-container-n1 p {
+            padding: 2em 1em;
+            font-size: 1em;
+            
+        }
+        .main-container-n2 {
+            width: 100vw;
+            height: 100%;
+            flex-direction: column;    
+            padding: 0;                          
+        }
+        .main-container-n2 h2 {
+            margin: 0;        
+        }
+    
+        .main-container-n2 img {
+            width: 15em;
+            padding: 0.5em;
+        }
+        .main-container-n2 p {
+            padding: 2em 1em;
+            font-size: 1em;
+        }    
+        /*----------------------------------------*/
+        .footer__content--h2 {
+            font-size: 0.8em;
+        }
+        .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+            font-size: 0.8em;
+        }
+    }
+/*--------------------------------------------------------/NOVEDADES-----------------------------------------------------------*/
+/*--------------------------------------------------------/NOVEDADES-----------------------------------------------------------*/
+
+/*--------------------------------------------------------CONTACTO-----------------------------------------------------------*/
+/*--------------------------------------------------------CONTACTO-----------------------------------------------------------*/
+
+@media screen and (max-width: 480px) {    
+    .container-enlaces {
+        display: none;     
+    }
+    header label {
+        display: block;
+        font-size: 1.9em;
+    }
+    .header__nav-bar--foto-logo {
+        height: 2em;
+        width: 3em;
+    }
+    /*-------------------------*/
+    /*-------------------------*/
+
+    .main-container-contacto {
+        flex-direction: column;        
+        width: 100%;       
+        height: 100%;             
+    }
+
+    .main-container-contacto__s1 {
+        width: 100%;
+        padding: 3em 0;
+    }
+    .main-container-contacto__s1 p {
+        font-size: 1em;
+    }
+    .main-container-contacto__s1 h1 {
+        font-size: 3.5em;        
+    }
+
+
+    .main-container-contacto__s2 {
+        width: 100%;
+    }
+    .main-container-contacto__s2 p {
+        font-size: 1em;
+    }
+    .main-container-contacto__s2 input {
+        height: 2em;
+        font-size: 1em;
+    }
+    .main-container-contacto__s2 textarea {
+        font-size: 1em;
+    }
+
+    /*---------------------------*/
+    .footer__content--h2 {
+        font-size: 0.6em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+    .container-enlaces {
+        display: none;
+    }
+    header label {
+        display: block;
+        font-size: 2.5em;
+    }
+
+    .header__nav-bar--foto-logo {
+        height: 3em;
+        width: 4em;
+    }
+    /*-----------------------------------------------*/
+
+    .main-container-contacto {
+        flex-direction: column;
+        width: 100%;       
+        height: 100%;
+    }
+
+    .main-container-contacto__s1 {
+        width: 100%;
+        padding: 3em 0;
+    }
+    .main-container-contacto__s1 p {
+        font-size: 1.2em;
+    }
+    .main-container-contacto__s1 h1 {
+        font-size: 5em;        
+    }
+
+
+    .main-container-contacto__s2 {
+        width: 100%;
+    }
+    .main-container-contacto__s2 p {
+        font-size: 1.2em;
+    }
+    .main-container-contacto__s2 input {
+        height: 2.5em;
+        font-size: 1em;
+    }
+    .main-container-contacto__s2 textarea {
+        font-size: 1em;
+    }
+
+    /*----------------------------------------*/
+    .footer__content--h2 {
+        font-size: 0.8em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.8em;
+    }
+}
+
+/*--------------------------------------------------------/CONTACTO-----------------------------------------------------------*/
+/*--------------------------------------------------------/CONTACTO-----------------------------------------------------------*/
