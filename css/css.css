@@ -663,6 +663,10 @@ header label:hover {
     border-radius: 5px;
 }
 
+.main-container-contacto__s2 input:focus {
+    transform: scale(1.03);
+}
+
 
 .main-container-contacto__s2 p {
     font-size: 2em;
@@ -691,6 +695,10 @@ header label:hover {
     margin: 1em 0;
     font-family: 'Rubik', sans-serif;
     padding: 0 1em;    
+}
+
+.main-container-contacto__s2 textarea:focus {
+    transform: scale(1.03);
 }
 
 /*--------------------------------------------------------/CONTACTO-----------------------------------------------------------*/
