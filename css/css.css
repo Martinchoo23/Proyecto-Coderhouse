@@ -112,7 +112,7 @@ header label:hover {
 
 .main-index-section1 {
     grid-area: i-s1;
-    background-image: url(../img/inicio/codeando-pagina-web.jpg);
+    background-image: url(../img/Inicio/Codeando-pagina-web.jpg);
     clip-path: polygon(79% 0, 100% 0, 100% 51%, 100% 96%, 75% 98%, 26% 98%, 0 96%, 0 53%, 0 0, 28% 0);
     background-size: cover;       
     display: flex;
@@ -663,10 +663,6 @@ header label:hover {
     border-radius: 5px;
 }
 
-.main-container-contacto__s2 input:focus {
-    transform: scale(1.03);
-}
-
 
 .main-container-contacto__s2 p {
     font-size: 2em;
@@ -695,10 +691,6 @@ header label:hover {
     margin: 1em 0;
     font-family: 'Rubik', sans-serif;
     padding: 0 1em;    
-}
-
-.main-container-contacto__s2 textarea:focus {
-    transform: scale(1.03);
 }
 
 /*--------------------------------------------------------/CONTACTO-----------------------------------------------------------*/
