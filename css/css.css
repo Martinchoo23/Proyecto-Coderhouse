@@ -10,80 +10,46 @@ body {
 
 /*--------------------------------------------------------HEADER---------------------------------------------------------*/
 /*--------------------------------------------------------HEADER---------------------------------------------------------*/
+.navbar {
+    background-color: rgb(20, 20, 20);
+}
 
-.header {
-    background-color: rgb(20, 20, 20); 
-    width: 100%;
-    height: 100%;
+header {
     grid-area: header;
-}
-
-.btn-menu {
-    display: none;    
-}
-
-header label {  
-    display: none;
-    font-size: 1.5em;
-    padding: 0 20px;
-    color: #fff;
-}
-
-header label:hover {
-    cursor: pointer;    
-}
-
-.header__nav-bar {    
-    height: 100%;    
     width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 0 1em;
-    justify-content: space-between;          
 }
 
-.header__nav-bar--foto-logo {
-    height: 3em;
-    margin: 0 1em;        
-    width: 5em;
-    border-radius: 10px;
-    transition: .3s;          
+.nav-link {
+    color: var(--white);
 }
 
-.container-enlaces {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    margin: 0 3em;
-    user-select: none;     
+.foto-logo {
+    transition: 0.3s;
 }
 
-.header__nav-bar--foto-logo:hover {
+.foto-logo:hover {
     filter: drop-shadow(0 0 2px #fff);
     transform: scale(1.03);
 }
 
-.header__nav-bar ul {
-    list-style: none;           
+.navbar button span {
+    filter: invert(1) brightness(2)
 }
 
-.header__nav-bar ul li {
-    display: inline-block;    
-    font-size: 1.5em;
-    padding: 0 1em;                 
+.navbar button {
+    color: var(--white);
 }
 
-
-.header__nav-bar ul li a {
+.navbar ul li a {
     text-decoration: none;       
     color: rgb(138, 138, 138);   
-    font-family: 'Rubik', sans-serif;    
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5em;    
     transition: .3s;     
 }
 
-.header__nav-bar ul li a:hover {
+
+.navbar ul li a:hover {
     color: #fff;
 }
 /*--------------------------------------------------------/HEADER---------------------------------------------------------*/
@@ -95,35 +61,16 @@ header label:hover {
 
 .grid-container-index {
     background-color: #000;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-areas:
-    "header"
-    "i-s1"
-    "i-s2"
-    "i-s3"
-    "i-s4"
-    "i-s5"
-    "footer";
-    grid-template-columns: auto;
-    grid-template-rows: 80px auto auto auto auto auto 80px;
 }
 
 .main-index-section1 {
     grid-area: i-s1;
     background-image: url(../img/inicio/codeando-pagina-web.jpg);
     clip-path: polygon(79% 0, 100% 0, 100% 51%, 100% 96%, 75% 98%, 26% 98%, 0 96%, 0 53%, 0 0, 28% 0);
-    background-size: cover;       
-    display: flex;
+    background-size: cover;  
     height: 100vh;
-    width: 100%;
-    flex-direction: column;     
-    text-align: center;
-    justify-content: space-around;
-    padding-top: 2em;  
-    padding-bottom: 2em;
-    user-select: none;
+    width: 100%;    
+    user-select: none; 
 }
 .main__section1--titulo1 {    
     color: #fff;      
@@ -140,15 +87,11 @@ header label:hover {
 
 .main__section1--texto-intro {
     color: rgb(138, 138, 138);        
-    font-size: 1.5em;
-    margin-top: 0.5em;
+    font-size: 1.5em;    
     font-family: 'Nuosu SIL', serif;
 }
 
-.main-index-section2 {
-    grid-area: i-s2;
-    display: flex; 
-    flex-wrap: wrap;   
+.main-index-section2 {  
     width: 100%;
     user-select: none;
 }
@@ -158,19 +101,14 @@ header label:hover {
 }
 .main__section2--texto1 {
     font-size: 3em;
-    color: #fff;
-    width: 100%;
-    margin: 1.5em 3em;
-    padding: 0.2em;
-    text-align: center;
+    color: #fff;       
     font-family: 'Rubik', sans-serif;
     border: 5px solid rgb(138, 138, 138); 
     text-shadow: 0px 0px 20px rgb(138, 138, 138);   
 }
 
 
-.main-index-section3 {
-    grid-area: i-s3;
+.main-index-section3 {    
     width: 100%;
     height: 100%;
     text-align: center;   
@@ -209,22 +147,16 @@ header label:hover {
 
 .main-index-section4 {
     grid-area: i-s4;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    width: 100%;    
     user-select: none;
 }
 .main__section3--foto1 {
-    width: 100%;           
+    width: 100%;              
     clip-path: polygon(75% 3%, 100% 0, 100% 51%, 100% 100%, 75% 98%, 27% 98%, 0 100%, 0 53%, 0 0, 26% 3%);
 }
 .main__section3--texto1 {
     font-size: 3em;
-    color: #fff;
-    width: 100%;
-    margin: 1.5em 3em;
-    padding: 0.2em;
-    text-align: center;
+    color: #fff;      
     font-family: 'Rubik', sans-serif;
     border: 5px solid rgb(138, 138, 138);
     text-shadow: 0px 0px 20px rgb(138, 138, 138);    
@@ -275,8 +207,7 @@ header label:hover {
 /*--------------------------------------------------------FOOTER-----------------------------------------------------------*/
 /*--------------------------------------------------------FOOTER-----------------------------------------------------------*/
 
-.footer {
-    grid-area: footer;
+.footer {    
     width: 100%;
 }
 .footer__content {    
@@ -334,29 +265,14 @@ header label:hover {
 /*--------------------------------------------------------NOSOTROS-----------------------------------------------------------*/
 
 .grid-container-nosotros {
-    width: 100%;
-    display: grid;
-    justify-items: center;
-    gap: 2em;    
-    grid-template-areas:
-    "header header"
-    "nosotros-text nosotros-text"
-    "abril martin"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 400px auto 80px;
- }
+    background-color: #000;
+    width: 100%; 
+}
 
 
-.main__textos-info {    
-    width: 100%;
-    grid-area: nosotros-text;
-    color: #fff;    
-    display: flex; 
-    flex-direction: column;
-    justify-content: space-between;       
-    text-align: center;
-    padding: 1em;       
+.textos-info {    
+    width: 100%;    
+    color: #fff;         
     font-family: 'Rubik', sans-serif; 
     user-select: none;
 }
@@ -376,32 +292,26 @@ header label:hover {
 
 .main-container__cards__tarjeta-abri {
     color: #fff;    
-    width: 80%;
-    text-align: center;
-    grid-area: abril;
-    background-color: rgb(106, 1, 138);
-    padding: 1em 0;
+    width: 80%;    
+    background-color: rgb(106, 1, 138);    
     border-radius: 25px;    
     transition: .3s;
     user-select: none;
+    text-align: center;
 }
 
 .main-container__cards__tarjeta-abri:hover {
     box-shadow: 0 0 20px rgb(150, 2, 200);
 }
 
-.main-container__cards__tarjeta-martin {
-    display: flex;
-    flex-direction: column;   
+.main-container__cards__tarjeta-martin {     
     color: #fff;    
     width: 80%;   
-    text-align: center;
-    grid-area: martin;
-    background-color: rgb(8, 4, 131);
-    padding: 1em 0;
+    background-color: rgb(8, 4, 131);    
     border-radius: 25px;
     transition: .3s;
     user-select: none;
+    text-align: center;
 }
 
 .main-container__cards__tarjeta-martin:hover {
@@ -428,38 +338,14 @@ header label:hover {
 /*--------------------------------------------------------SERVICIOS-----------------------------------------------------------*/
 /*--------------------------------------------------------SERVICIOS-----------------------------------------------------------*/
 
-.main-container-card1 {
-    grid-area: c1;
-}
-.main-container-card2 {
-    grid-area: c2;
-}
-.main-container-card3 {
-    grid-area: c3;
-}
-.main-container-card4 {
-    grid-area: c4;
-}
 
 .grid-container-servicios {   
-    width: 100%;
-    display: grid;
-    justify-items: center;
-    grid-template-areas: 
-    "header header"
-    "c1 c2"
-    "c3 c4"
-    "footer footer";
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 80px 1fr 1fr 80px;
+    background-color: #000;
 }
 
-.main-container-card1, .main-container-card2, .main-container-card3, .main-container-card4 {        
-        display: flex;
-        justify-items: center;
+.main-container-card1, .main-container-card2, .main-container-card3, .main-container-card4 {       
         color: #fff;
-        background-color: rgb(20, 20, 20);
-        margin: 1em;        
+        background-color: rgb(20, 20, 20);               
         font-family: 'Rubik', sans-serif;
         text-align: center;     
         align-items: center;
@@ -494,10 +380,6 @@ header label:hover {
     background-color: rgb(30, 30, 30);
     box-shadow: 0 0 10px rgb(40, 40, 40);
     transform: scale(1.02);
-}
-
-.main__container-services--cards p {
-    margin-right: 0.5em;   
 }
 
 .main-container-card__s1 {
@@ -538,28 +420,17 @@ header label:hover {
 /*--------------------------------------------------------NOVEDADES-----------------------------------------------------------*/
 
 .grid-container-novedades {    
-    width: 100%;
-    height: 100%;  
-    justify-items: center;  
-    display: grid;    
-    grid-template-areas:
-    "header"
-    "n1"
-    "n2"
-    "footer";
-    grid-template-columns: auto;
-    grid-template-rows: 80px 1fr 1fr 80px;
+   background-color: #000; 
 }
 
-.main-container-n1 {
-    grid-area: n1;    
-    width: 100%;
+.main-container-n1 {   
     color: #fff;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 1em 2em;
-    font-family: 'Rubik', sans-serif;    
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(10, 10, 10);   
 }
 
 .main-container-n1 h2 {
@@ -575,14 +446,13 @@ header label:hover {
 }
 
 .main-container-n2 {
-    grid-area: n2;
-    width: 100%;
     color: #fff;
     display: flex;
     align-items: center;
     text-align: center;
     padding: 1em 2em;
-    font-family: 'Rubik', sans-serif;     
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(10, 10, 10);     
 }
 
 .main-container-n2 h2 {
@@ -606,22 +476,13 @@ header label:hover {
 .grid-container-contacto {
     width: 100%;
     height: 100vh;
-    display: grid;
-    grid-template-areas:
-    "header"
-    "main-contacto"
-    "footer";
-    grid-template-columns: auto;
-    grid-template-rows: 80px auto 80px;
+    background-color: #000;
 }
 
-.main-container-contacto {     
-    grid-area: main-contacto;
+.main-container-contacto {   
     display: flex;
     background-image: url(../img/contacto/background.jpg);
     background-size: cover;
-    width: 100%;
-    height: 100%;
     font-family: 'Rubik', sans-serif;  
     user-select: none;
 }
@@ -629,7 +490,7 @@ header label:hover {
 .main-container-contacto__s1 {    
     text-align: center;
     padding-top: 7em;
-    width: 50%;    
+    width: 100%;    
 }
 
 .main-container-contacto__s1 p {
@@ -644,7 +505,7 @@ header label:hover {
 }
 
 .main-container-contacto__s2 {    
-    width: 50%;
+    width: 100%;
     background-color: rgba(0, 0, 0, .6);
     display: flex;
     flex-direction: column;
