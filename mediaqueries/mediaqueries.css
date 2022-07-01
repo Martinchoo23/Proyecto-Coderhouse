@@ -1,22 +1,66 @@
+/*--------------------------------------------------------HEADER-----------------------------------------------------------*/
+/*--------------------------------------------------------HEADER-----------------------------------------------------------*/
+@media screen and (max-width: 890px) {
+    nav {
+        min-height: 4em;
+        width: 100%;
+    }
+
+    .logo {
+        width: 3em;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        right: 2em;
+        transition: .2s .1s;
+    }
+
+    .ham span {
+        height: 3px;
+        width: 30px;
+    }
+
+    .ham:hover {
+        transform: rotate(360deg);
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em 0;
+    }
+
+    .enlaces {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 20em;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+
+   .enlaces li {
+    width: 100%;
+    text-align: center;
+   }
+
+   .enlaces li:hover {
+    background-color: rgb(30, 30, 30);      
+   }
+}
+/*--------------------------------------------------------/HEADER-----------------------------------------------------------*/
+/*--------------------------------------------------------/HEADER-----------------------------------------------------------*/
+
+
 /*--------------------------------------------------------INDEX-----------------------------------------------------------*/
 /*--------------------------------------------------------INDEX-----------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {   
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 2em;
-        width: 3em;
-    }
-    /*-------------------------*/
-
-    /*---------------------------*/
-
     /*section1*/
     .main-index-section1 {
         width: 100%;
@@ -82,18 +126,6 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 890px) {
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 3em;
-        width: 4em;
-    } 
-    /*----------------------------------------*/
 
     /*section1*/
     .main-index-section1 {
@@ -175,20 +207,6 @@
 /*--------------------------------------------------------NOSOTROS-----------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 2em;
-        width: 3em;
-    }
-    /*-------------------------*/
-
-
 
 /*MAQUETADO-GRID*/
     .grid-container-nosotros {
@@ -236,19 +254,6 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 890px) {
-        
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 3em;
-        width: 4em;
-    }
-    /*-------------------------*/
 
     .main__textos-info__p1 {             
         font-size: 2.5em;
@@ -287,18 +292,7 @@
 /*--------------------------------------------------------SERVICIOS-----------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 2em;
-        width: 3em;
-    }
-    /*-------------------------*/
+
 /*MAQUETADO-GRID*/
     .grid-container-servicios {
         width: 100%;
@@ -351,19 +345,6 @@
     }
 }
 @media screen and (min-width: 481px) and (max-width: 890px) {
-    
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 3em;
-        width: 4em;
-    }
-    /*-------------------------*/
 
     /*MAQUETADO-GRID*/
     .grid-container-servicios {
@@ -412,18 +393,6 @@
 /*--------------------------------------------------------NOVEDADES-----------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 2em;
-        width: 3em;
-    }
-    /*-------------------------*/
 
     .grid-container-novedades {
         gap: 4em;
@@ -473,19 +442,6 @@
     }
 }
     @media screen and (min-width: 481px) and (max-width: 890px) {
-        .container-enlaces {
-            display: none;
-        }
-        header label {
-            display: block;
-            font-size: 1.9em;
-        }
-        .header__nav-bar--foto-logo {
-            height: 3em;
-            width: 4em;
-        }
-   
-        /*-----------------------------------------------*/
 
         .grid-container-novedades {
             gap: 4em;
@@ -542,19 +498,6 @@
 /*--------------------------------------------------------CONTACTO-----------------------------------------------------------*/
 
 @media screen and (max-width: 480px) {    
-    .container-enlaces {
-        display: none;     
-    }
-    header label {
-        display: block;
-        font-size: 1.9em;
-    }
-    .header__nav-bar--foto-logo {
-        height: 2em;
-        width: 3em;
-    }
-    /*-------------------------*/
-    /*-------------------------*/
 
     .main-container-contacto {
         flex-direction: column;        
@@ -598,19 +541,6 @@
 }
 
 @media screen and (min-width: 481px) and (max-width: 890px) {
-    .container-enlaces {
-        display: none;
-    }
-    header label {
-        display: block;
-        font-size: 2.5em;
-    }
-
-    .header__nav-bar--foto-logo {
-        height: 3em;
-        width: 4em;
-    }
-    /*-----------------------------------------------*/
 
     .main-container-contacto {
         flex-direction: column;
