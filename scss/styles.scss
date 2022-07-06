@@ -1,2 +1,8 @@
-@import "./general/_reset.scss";
-@import "./general/general.scss";
+@import "./general/reset";
+@import "./general/variables";
+@import "./general/grid";
+@import "./general/general";
+@import "./general/breakpoints";
+@import "./sections/header";
+@import "./sections/main";
+@import "./sections/footer";

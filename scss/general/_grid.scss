@@ -1,0 +1,16 @@
+.grid-container-index {
+    background-color: $clr-negro;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "i-s1"
+    "i-s2"
+    "i-s3"
+    "i-s4"
+    "i-s5"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto auto auto auto auto 80px;
+}
