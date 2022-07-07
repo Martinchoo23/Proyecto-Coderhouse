@@ -1,0 +1,197 @@
+@media screen and (max-width: 890px) {
+    nav {
+        min-height: 4em;
+        width: 100%;
+    }
+
+    .logo {
+        width: 3em;
+        position: absolute;
+        left: 0;
+    }
+
+    .ham {
+        display: block;
+        position: absolute;
+        right: 2em;
+        transition: .2s .1s;
+    }
+
+    .ham span {
+        height: 3px;
+        width: 30px;
+    }
+
+    .ham:hover {
+        transform: rotate(360deg);
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 1em 0;
+    }
+
+    .enlaces {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 20em;
+        margin-top: 1em;
+        padding: 0;
+        width: 100%;
+        display: none;
+        opacity: 0;
+    }
+
+   .enlaces li {
+    width: 100%;
+    text-align: center;
+   }
+
+   .enlaces li:hover {
+    background-color: rgb(30, 30, 30);      
+   }
+}
+
+
+
+@media screen and (max-width: 480px) {   
+    /*section1*/
+    .main-index-section1 {
+        width: 100%;
+        padding-top: 2em;  
+        padding-bottom: 2em;        
+    }
+    .main__section1--titulo1 {
+        font-size: 4em;
+    }
+    .main__section1--titulo2 {
+        font-size: 1.5em;        
+    }
+    .main__section1--texto-intro {
+        font-size: 1.2em;
+        padding: 0 2em;
+    }
+    /*section2*/
+    .main-index-section2 {
+        width: 100%;        
+    }   
+    .main__section2--texto1 {
+        font-size: 1.5em;
+        margin: 1.5em 1em;
+    }
+    /*section3*/
+    .main-index-section3 {
+        width: 100%;
+    }
+    .main__section2__cards__card {
+        width: 80%;
+        height: auto;        
+    }
+    .main__section2__cards__card i {
+        font-size: 2.5em;
+    }
+    /*section4*/
+    .main-index-section4 {
+        width: 100%;        
+    }
+    .main__section3--texto1 {
+        font-size: 1.5em;
+        margin: 1.5em 1em;
+    }
+    /*section5*/
+    .main-index-section5 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main__section3--cards__card {
+        width: 80%;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+    }
+
+    /*---------------------------*/
+    .footer__content--h2 {
+        font-size: 0.6em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 890px) {
+
+    /*section1*/
+    .main-index-section1 {
+        width: 100%;
+        padding-top: 2em;  
+        padding-bottom: 2em;        
+    }
+    .main__section1--titulo1 {
+        font-size: 6em;
+    }
+    .main__section1--titulo2 {
+        font-size: 1.7em;        
+    }
+    .main__section1--texto-intro {
+        font-size: 1.3em;
+        padding: 0 2em;
+    }
+    /*section2*/
+    .main-index-section2 {
+        width: 100%;        
+    }   
+    .main__section2--texto1 {
+        font-size: 2em;
+        margin: 1.5em 1em;
+    }
+    /*section3*/
+    .main-index-section3 {
+        width: 100%;
+    }
+    .main__section2__cards__card {
+        width: 80%;
+        height: auto;        
+    }
+    .main__section2__cards__card i {
+        font-size: 3em;
+    }
+    .main__section2__cards__card--texto {
+        font-size: 1.3em;
+    }
+    /*section4*/
+    .main-index-section4 {
+        width: 100%;        
+    }
+    .main__section3--texto1 {
+        font-size: 2em;
+        margin: 1.5em 1em;
+    }
+    /*section5*/
+    .main-index-section5 {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .main__section3--cards__card {
+        width: 80%;
+        height: auto;
+        margin: 1em;
+        padding: 1em;
+    }
+    .main__section3--cards__card--texto {
+        font-size: 1.3em;
+    }
+    .main__section3--cards__card i {
+        font-size: 3em;
+    }
+
+    /*----------------------------------------*/
+    .footer__content--h2 {
+        font-size: 0.8em;
+    }
+    .footer__content--facebook, .footer__content--twitter, .footer__content--wsp{
+        font-size: 0.8em;
+    }
+}
