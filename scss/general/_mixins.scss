@@ -1,0 +1,20 @@
+//map-footer
+$paleta-footer: (
+    'fb': rgb(71, 59, 240),
+    'tw': rgb(29, 161, 242),
+    'wsp': rgb(37, 211, 102),
+);
+
+//mixin-footer 
+@mixin flex($align-i, $justify-c) {
+    display: flex;
+    align-items: $align-i;
+    justify-content: $justify-c;
+}
+
+//mixin main-servicios
+@mixin cardS($bg-color, $box-shadow, $transform) {
+    background-color: $bg-color;
+    box-shadow: $box-shadow;
+    transform: $transform;
+}

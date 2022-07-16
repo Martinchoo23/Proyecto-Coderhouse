@@ -1,0 +1,78 @@
+//INDEX
+.grid-container-index {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "i-s1"
+    "i-s2"
+    "i-s3"
+    "i-s4"
+    "i-s5"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto auto auto auto auto 80px;
+}
+//INDEX
+
+//NOSOTROS
+.grid-container-nosotros {
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    gap: 2em;    
+    grid-template-areas:
+    "header header"
+    "nosotros-text nosotros-text"
+    "abril martin"
+    "footer footer";
+    grid-template-columns: 1f 1f;
+    grid-template-rows: auto 400px auto auto;
+}
+//NOSOTROS
+
+//SERVICIOS
+.grid-container-servicios {   
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    grid-template-areas: 
+    "header header"
+    "c1 c2"
+    "c3 c4"
+    "footer footer";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 80px 1fr 1fr 80px;
+}
+//SERVICIOS
+
+//NOVEDADES
+.grid-container-novedades {    
+    width: 100%;
+    height: 100%;  
+    justify-items: center;  
+    display: grid;    
+    grid-template-areas:
+    "header"
+    "n1"
+    "n2"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 80px 1fr 1fr 80px;
+}
+//NOVEDADES
+
+//CONTACTO
+.grid-container-contacto {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+    "header"
+    "main-contacto"
+    "footer";
+    grid-template-columns: auto;
+    grid-template-rows: 80px auto 80px;
+}
+//CONTACTO

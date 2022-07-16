@@ -1,0 +1,426 @@
+//INDEX
+.main-index-section1 {
+    grid-area: i-s1;
+    background-image: url(../img/inicio/codeando-pagina-web.jpg);
+    clip-path: polygon(79% 0, 100% 0, 100% 51%, 100% 96%, 75% 98%, 26% 98%, 0 96%, 0 53%, 0 0, 28% 0);
+    background-size: cover;       
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;     
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 2em;  
+    padding-bottom: 2em;
+    user-select: none;
+}
+.main__section1--titulo1 {    
+    color: $clr-blanco;      
+    font-size: 9em;
+    text-shadow: 0px 0px 7px $clr-blanco;
+    font-family: $ff-rubik;
+}
+
+.main__section1--titulo2 {
+    color: $clr-grisClaro2;       
+    font-size: 2em;    
+    font-family: $ff-nuosu
+}
+
+.main__section1--texto-intro {
+    color: $clr-grisClaro2;     
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    font-family: $ff-nuosu
+}
+
+.main-index-section2 {
+    grid-area: i-s2;
+    display: flex; 
+    flex-wrap: wrap;   
+    width: 100%;
+    user-select: none;
+}
+.main__section2--foto1 {
+    width: 100%;
+    clip-path: polygon(75% 3%, 100% 0, 100% 51%, 100% 100%, 75% 98%, 27% 98%, 0 100%, 0 53%, 0 0, 26% 3%);
+}
+.main__section2--texto1 {
+    font-size: 3em;
+    color: $clr-blanco;
+    width: 100%;
+    margin: 1.5em 3em;
+    padding: 0.2em;
+    text-align: center;
+    font-family: $ff-rubik;
+    border: 5px solid $clr-grisClaro2; 
+    text-shadow: 0px 0px 20px $clr-grisClaro2;   
+}
+
+
+.main-index-section3 {
+    grid-area: i-s3;
+    width: 100%;
+    height: 100%;
+    text-align: center;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: $ff-rubik;
+    user-select: none;
+}
+.main__section2__cards__card {
+    width: 36.36%;
+    height: auto;
+    border: 1px solid $clr-grisClaro;
+    text-shadow: 0px 0px 20px $clr-grisClaro2;  
+    border-radius: 1em;
+    padding: 1em;
+    margin: 1em; 
+    transition: .3s;  
+    &:hover {
+        transform: scale(1.03);
+    } 
+}
+
+.main__section2__cards__card i {
+    font-size: 4em;
+    color: $clr-blanco;
+    padding: 0.3em;
+
+}
+.main__section2__cards__card--texto {
+    font-size: 1.1em;
+    color: $clr-blanco;    
+}
+
+
+.main-index-section4 {
+    @extend .main-index-section2;
+    grid-area: i-s4;
+}
+.main__section3--foto1 {
+    @extend .main__section2--foto1;
+}
+.main__section3--texto1 {
+    @extend .main__section2--texto1;
+}
+
+
+.main-index-section5 {
+    grid-area: i-s5;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2em;
+    user-select: none;
+}
+.main__section3--cards__card {
+    @extend .main__section2__cards__card;
+    width: 40.40%;
+    margin-bottom: 2em;
+    padding: 1em;
+    &:hover {
+        transform: scale(1.03);
+    }
+}
+
+.main__section3--cards__card--texto {
+    font-size: 1.1em;
+    color: #fff;
+    padding: 1em;
+    font-family: $ff-rubik;
+}
+.main__section3--cards__card i {
+    font-size: 4em;
+    color: $clr-blanco;
+    padding: 0.3em;
+}
+//INDEX
+
+//NOSOTROS
+.main__textos-info {    
+    width: 100%;
+    grid-area: nosotros-text;
+    color: $clr-blanco;    
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;       
+    text-align: center;
+    padding: 1em;       
+    font-family: $ff-rubik; 
+    user-select: none;
+}
+.main__textos-info__p1 {             
+    font-size: 6em;
+}
+
+.main__textos-info__p2 {    
+    font-size: 1.2em;
+}
+
+.main__textos-info__p3 {
+    font-size: 4em;
+}
+
+
+.main-container__cards__tarjeta-abri {
+    color: $clr-blanco;    
+    width: 80%;
+    text-align: center;
+    grid-area: abril;
+    background-color: rgb(106, 1, 138);
+    padding: 1em 0;
+    border-radius: 25px;    
+    transition: .3s;
+    user-select: none;
+}
+
+.main-container__cards__tarjeta-abri:hover {
+    box-shadow: 0 0 20px rgb(150, 2, 200);
+}
+
+.main-container__cards__tarjeta-martin {
+    @extend .main-container__cards__tarjeta-abri;
+    grid-area: martin;
+    background-color: rgb(8, 4, 131);
+}
+
+.main-container__cards__tarjeta-martin:hover {
+    box-shadow: 0 0 20px rgb(16, 8, 162);
+}
+
+.main-container__cards-h2 {
+    font-size: 2em;          
+}
+
+.main-container__cards-img {
+    padding: 1em 0;
+    width: 70%;
+}
+
+.main-container__cards-p {
+    padding: 1em 1em;
+    font-size: 0.9em;
+    font-weight: 200;
+}
+//NOSOTROS
+
+//SERVICIOS
+.main-container-card1 {
+    grid-area: c1;
+}
+.main-container-card2 {
+    grid-area: c2;
+}
+.main-container-card3 {
+    grid-area: c3;
+}
+.main-container-card4 {
+    grid-area: c4;
+}
+.main-container-card1, .main-container-card2, .main-container-card3, .main-container-card4 {        
+    display: flex;
+    justify-items: center;
+    color: $clr-blanco;
+    background-color: $clr-grisOscuro2;
+    margin: 1em;        
+    font-family: $ff-rubik;
+    text-align: center;     
+    align-items: center;
+    border-radius: 10px; 
+    transition: .3s;
+    user-select: none;
+}
+.main-container-card1, .main-container-card2, .main-container-card3, .main-container-card4 p {
+    padding-right: 1em;
+}
+
+.main-container-card1:hover {
+    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+}
+
+.main-container-card2:hover {
+    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+}
+
+.main-container-card3:hover {
+    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+}
+
+.main-container-card4:hover {
+    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+}
+
+.main__container-services--cards p {
+    margin-right: 0.5em;   
+}
+
+.main-container-card__s1 {
+    padding: 0.5em;
+}
+
+.main-container-card__s1 h2 {
+    padding: 0.5em 0;
+    font-weight: 400;    
+    border-top: 1px solid $clr-blanco;    
+}
+
+.main-container-card__s1 img {    
+    height: 20em;
+    padding: 0.5em;
+}
+
+.main-container-card__s1 input {
+    width: 50%;
+    border: none;
+    background-color: $clr-grisClaro;
+    font-size: 1em;
+    font-weight: 700;    
+    padding: 0.5em 0;
+    margin: 1em 0;
+    font-family: $ff-rubik; 
+    transition: .3s;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(200, 200, 200);
+    }
+}
+//SERVICIOS
+
+//NOVEDADES
+.main-container-n1 {
+    grid-area: n1;
+    background-color: $clr-grisOscuro3;   
+    width: 100%;
+    color: $clr-blanco;
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    padding: 1em 2em;    
+    font-family: $ff-rubik;           
+}
+
+.main-container-n1 h2 {
+    margin: 1em 0;
+}
+
+.main-container-n1 img {
+    width: 25em;
+}
+
+.main-container-n1 p {
+    padding: 5em;
+}
+
+.main-container-n2 {
+    @extend .main-container-n1;
+    grid-area: n2;
+}
+
+.main-container-n2 h2 {
+    margin: 1em 0;
+}
+
+.main-container-n2 img {
+    width: 25em;
+}
+
+.main-container-n2 p {
+    padding: 5em;
+}
+//NOVEDADES
+
+//CONTACTO
+.main-container-contacto {     
+    grid-area: main-contacto;
+    display: flex;
+    background-image: url(../img/contacto/background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    font-family: $ff-rubik;  
+    user-select: none;
+}
+
+.main-container-contacto__s1 {    
+    text-align: center;
+    padding-top: 7em;
+    width: 50%;    
+}
+
+.main-container-contacto__s1 p {
+    font-size: 1.5em;
+    color: $clr-blanco;
+}
+
+.main-container-contacto__s1 h1 {          
+    font-size: 6em;
+    padding-top: 0.5em;
+    text-shadow: 0px 0px 2px $clr-blanco;
+}
+
+.main-container-contacto__s2 {    
+    width: 50%;
+    background-color: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 4em 0;
+}
+
+.main-container-contacto__s2 input {
+    width: 60%;
+    height: 3em;
+    font-size: 1.2em;
+    margin: 1em 0;
+    padding: 0 1em;
+    background-color: rgba(255, 255, 255, .7);
+    border: none;
+    border-radius: 5px;
+    transition: .2s;
+    &:focus {
+        transform: scale(1.03);
+    }
+}
+
+.main-container-contacto__s2 p {
+    font-size: 2em;
+    color: $clr-blanco;    
+}
+
+.botonCon {
+    cursor: pointer;
+    width: 45%;
+    height: 2.5em;
+    font-family: $ff-rubik;
+    font-size: 1.5em;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, .7);
+    border: none;
+    border-radius: 5px;
+    transition: .3s;
+    &:hover {
+        transform: scale(1.03);
+        background-color: rgba(168, 230, 255, 0.7);
+    }
+}
+
+.main-container-contacto__s2 textarea {
+    width: 60%;
+    font-size: 1.3em;
+    background-color: rgba(255, 255, 255, .7);
+    resize: none;
+    margin: 1em 0;
+    font-family: $ff-rubik;
+    padding: 0 1em;    
+    transition: .2s;
+    border-radius: 5px;
+    &:focus {
+        transform: scale(1.03);
+    }
+}
+
+//CONTACTO

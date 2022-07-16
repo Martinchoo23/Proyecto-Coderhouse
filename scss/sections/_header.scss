@@ -1,0 +1,87 @@
+header {
+    width: 100%;
+    z-index: 1000;
+    grid-area: header;
+    & nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $clr-grisOscuro2;
+        min-height: 5em;
+        z-index: 1000;
+        font-family: $ff-rubik;
+        & a {
+            & img {
+                width: 4em;
+                margin: 0 2em;
+                transition: .3s;
+                &:hover {
+                    filter: drop-shadow(0 0 2px $clr-blanco);
+                    transform: scale(1.03);
+                }
+            }
+        }
+        & ul {
+            display: flex;
+            padding: 0;
+            margin: 0 2em;
+
+            & li{
+                padding: 0 1.5em;
+                list-style: none;
+
+                & a {
+                    text-decoration: none;
+                    font-size: 1.5em;
+                    color: $clr-grisClaro2;
+                    transition: .3s;
+
+                    &:hover {
+                        color: $clr-blanco;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.ham {
+    display: none;
+    cursor: pointer;
+    border: none;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+
+    & span {
+        display: block;
+        background-color: $clr-blanco;
+        height: 5px;
+        width: 40px;
+        margin: 10px auto;
+        border-radius: 5px;
+    }
+}
+
+
+@keyframes muestraMenu {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.enlaces.activado {
+    display: flex;
+    animation: muestraMenu 350ms ease-in-out both;
+}
+
+.br-1.animado {
+    transform: rotate(-45deg) translate(-10px, 8px);
+}
+
+.br-2.animado {
+    opacity: 0;
+}
+
+.br-3.animado {
+    transform: rotate(45deg) translate(-10px, -9px);
+}
