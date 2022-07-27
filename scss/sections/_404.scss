@@ -2,7 +2,7 @@
     background: rgb(0,0,42);
     background: linear-gradient(90deg, rgba(0,0,42,1) 0%, rgba(0,14,103,1) 50%, rgba(0,0,42,1) 100%);
     width: 100%;
-    height: 100vh;
+    height: 100vh;    
     color: #fff;
     font-family: $ff-rubik;    
 }
@@ -11,8 +11,9 @@
     width: 100%;
     height: 60vh;    
     display: flex;   
-    flex-direction: column;
-    align-items: center;    
+    flex-direction: column;    
+    align-items: center;
+    text-align: center;    
 
     & h2 {
         font-size: 8em;
