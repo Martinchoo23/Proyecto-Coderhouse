@@ -217,7 +217,7 @@
     }
 
     .main__textos-info__p2 {    
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
 
     .main__textos-info__p3 {
@@ -302,7 +302,8 @@
     }
 
     .main-container-card__s1 input {
-        font-size: 0.6em;
+        font-size: 1em;
+        width: 70%;
     }
 
     .main-container-card__s1 img {    
@@ -567,10 +568,10 @@
 
 //404
 
-@media screen and (min-width: 200px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
     .main-404-1 {
-        justify-content: center;        
+        justify-content: center;              
     }
     .main-404-1 h2{
         font-size: 6em;        
@@ -578,7 +579,7 @@
 
     .main-404-1 p {
         font-size: 1.3em;
-        padding: 0.5em 0;
+        padding: 0.5em 1em;
     }
 
     .main-404-1 img {
