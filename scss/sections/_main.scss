@@ -239,19 +239,19 @@
 }
 
 .main-container-card1:hover {
-    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+    @include cardS($clr-grisOscuro4, 0 0 5px, scale(1.01))
 }
 
 .main-container-card2:hover {
-    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+    @include cardS($clr-grisOscuro4, 0 0 5px, scale(1.01))
 }
 
 .main-container-card3:hover {
-    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+    @include cardS($clr-grisOscuro4, 0 0 5px, scale(1.01))
 }
 
 .main-container-card4:hover {
-    @include cardS($clr-grisOscuro4, 0 0 8px, scale(1.01))
+    @include cardS($clr-grisOscuro4, 0 0 5px, scale(1.01))
 }
 
 .main__container-services--cards p {
